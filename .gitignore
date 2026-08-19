@@ -1,0 +1,27 @@
+# ---- Secrets ---------------------------------------------------------------
+# .env holds live uStore credentials. .env.example is the tracked template.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+
+# ---- Dependencies ----------------------------------------------------------
+node_modules/
+
+# ---- Logs & runtime --------------------------------------------------------
+*.log
+npm-debug.log*
+pids/
+*.pid
+
+# ---- Editors & OS ----------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ---- Scratch ---------------------------------------------------------------
+tmp/
+*.local.*
